@@ -2,7 +2,7 @@
 
 <?php 
 $name = $_GET["name"];
-
+$mail = $_GET["mail"];
 
 if (strlen($name) < 3 ){
     echo "accesso negato";
@@ -10,6 +10,11 @@ if (strlen($name) < 3 ){
     echo "accesso riuscito";
 }
 
+if( str_contains($mail , "@")){
+    echo "accesso riuscito";
+} else {
+    echo "accesso negato";
+}
 
 
 
