@@ -21,7 +21,7 @@ Snack 8
        echo "<p>{$reptile['name']} ({$reptile['species']})</p>";
    }
    
-   echo "<h1>Altri</h1>";
+   echo "<h1>Uccelli</h1>";
    foreach ($birds as $bird) {
        echo "<p>{$bird['name']} ({$bird['species']})</p>";
    }
