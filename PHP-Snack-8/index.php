@@ -26,12 +26,4 @@ Snack 8
        echo "<p>{$bird['name']} ({$bird['species']})</p>";
    }
    
-   ?>
-
-
-
-
-
-
-
 ?>
