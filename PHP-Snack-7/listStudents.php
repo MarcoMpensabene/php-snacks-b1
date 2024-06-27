@@ -2,35 +2,25 @@
  
     $classFaiga = [
         'studentA' => [
-            [
                 'name' => 'Michele',
-                'lastname' => 'Papagni'
-            ],
-            'voti' =>[
-                'italiano' => 3,
-                'matematica' => 6
-                    ]
-        ],
+                'lastname' => 'Papagni',
+                'votes' => [1 , 5 , 7]
+                    ],
         'studentB' => [
-            [
-                'name' => 'gino',
-                'lastname' => 'padella'
-            ],
-            'voti' =>[
-                'italiano' => 100,
-                'matematica' => -45
-                    ]
-        ],
+                'name' => 'Michele',
+                'lastname' => 'Papagni',
+                'votes' => [1 , 5 , 7]
+                    ],
         'studentC' => [
-            [
-                'name' => 'riccardo',
-                'lastname' => 'speedo'
-            ],
-            'voti' =>[
-                'italiano' => 6,
-                'matematica' => 99
-                    ]
-        ],
+                'name' => 'Michele',
+                'lastname' => 'Papagni',
+                'votes' => [1 , 5 , 7]
+                    ],
+        'studentD' => [
+                'name' => 'Michele',
+                'lastname' => 'Papagni',
+                'votes' => [1 , 5 , 7]
+                    ],
     ];
     
     ?>

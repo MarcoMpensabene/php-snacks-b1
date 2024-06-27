@@ -8,13 +8,12 @@ Stampare Nome, Cognome e la media dei voti di ogni alunno. <br>
 include __DIR__ . "/listStudents.php";
 
 
-foreach ($classFaiga as $key => $info) {
-        echo "<h1>$key</h1>";
-        foreach ($info as $key => $name) {
-            echo "<h3>{$name['name']}</h3>";
-            echo "<p>{$name['lastname']}</p>";
-            echo "<p>{$key}</p>";
+foreach ($classFaiga as  $info) {
+        echo "<p>{$info['name']}</p>";
+        echo "<p>{$info['lastname']}</p>";
+        foreach ($info as $vote){
+            echo "<p>{$vote['votes']}</p>";
         }
-    }
+        }
 
 ?>
