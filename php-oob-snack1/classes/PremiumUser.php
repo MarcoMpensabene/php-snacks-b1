@@ -8,7 +8,7 @@ class PremiumUser extends User
 
     public function __construct($id, $password, $planPrice, $planDuration)
     {
-        User::__construct($id, $password);
+        parent::__construct($id, $password);
         $this->planPrice = $planPrice;
         $this->planDuration = $planDuration;
     }

@@ -8,7 +8,7 @@ class Membership extends PremiumUser
 
     public function __construct($id, $password, $planPrice, $planDuration, $privilage)
     {
-        PremiumUser::__construct($id, $password, $planPrice, $planDuration);
+        parent::__construct($id, $password, $planPrice, $planDuration);
         $this->privilage = $privilage;
     }
 
