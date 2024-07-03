@@ -1,5 +1,6 @@
 <?php
-require_once __DIR__ . "classes/User";
+require_once __DIR__ . "classes/User.php";
+require_once __DIR__ . "classes/PremiumUser.php";
 
 class Membership extends PremiumUser
 {
