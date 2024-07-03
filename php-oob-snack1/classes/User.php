@@ -27,4 +27,9 @@ class User
         return $this->userPassword;
     }
 
+    public function setPassword($password)
+    {
+        return $this->userPassword = $password ;
+    }
+
 }
